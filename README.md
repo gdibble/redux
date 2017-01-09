@@ -1,6 +1,17 @@
-#### Each commit adds `node_modules` for that example-app so you can quickly run w/o the install step
+#### Resources to learn [Redux](http://redux.js.org/) quickly:
 
-**For Redux [Introduction/Example](http://redux.js.org/docs/introduction/Examples.html) apps** — Last updated for Redux v3.6.0 on 8 Jan 2017 by [gdibble](https://github.com/gdibble)
+* **FIRST:** Go from top to bottom on [this page](http://redux.js.org/docs/introduction/Examples.html), trying each app one at a time<br>Examine the code then `npm start` and observe what you have surmised from each file. Move on to next example app...
+* [Awesome Redux](https://github.com/xgrommx/awesome-redux)
+* [Getting startted with Redux](http://www.jchapron.com/2015/08/14/getting-started-with-redux/)
+* [Getting Started With Redux React: An Intro](https://www.codementor.io/reactjs/tutorial/intro-to-react-redux-pros)
+* [A React-Redux example app](http://blog.krawaller.se/posts/a-react-redux-example-app/)
+* [A Step by Step Guide To Building React Redux Apps](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.aztq5zbvx)
+* [Learn React & Redux With Cabin](http://cabin.getstream.io/)
+* [105 Redux Examples](https://react.rocks/tag/Redux)
+
+--
+
+#### Quickly run [example-app](http://redux.js.org/docs/introduction/Examples.html) w/o the install step - each commit adds `node_modules`, making it easy to try the example
 
 * [Counter](http://redux.js.org/docs/introduction/Examples.html#counter): `git cherry-pick 3eddce9`
 * [Todos](http://redux.js.org/docs/introduction/Examples.html#todos) ([more info](http://redux.js.org/docs/basics/ExampleTodoList.html)): `git cherry-pick fa15104`
@@ -11,6 +22,8 @@
 * [Async](http://redux.js.org/docs/introduction/Examples.html#async): `git cherry-pick 9e0ac41`
 * [Universal](http://redux.js.org/docs/introduction/Examples.html#universal): `git cherry-pick 29dec4b`
 * [Real World](http://redux.js.org/docs/introduction/Examples.html#real-world): `git cherry-pick a8a1c76`
+
+*Last updated for Redux v3.6.0 on 8 Jan 2017 by [gdibble](https://github.com/gdibble)*
 
 ---
 
