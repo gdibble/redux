@@ -1,3 +1,19 @@
+#### Each commit adds `node_modules` for that example-app so you can quickly run w/o the install step
+
+**For Redux [Introduction/Example](http://redux.js.org/docs/introduction/Examples.html) apps** — Last updated for Redux v3.6.0 on 8 Jan 2017 by [gdibble](https://github.com/gdibble)
+
+* [Counter](http://redux.js.org/docs/introduction/Examples.html#counter): `git cherry-pick 3eddce9`
+* [Todos](http://redux.js.org/docs/introduction/Examples.html#todos) ([more info](http://redux.js.org/docs/basics/ExampleTodoList.html)): `git cherry-pick fa15104`
+* [Todos with Undo](http://redux.js.org/docs/introduction/Examples.html#todos-with-undo): `git cherry-pick 5517e42`
+* [TodoMVC](http://redux.js.org/docs/introduction/Examples.html#todomvc): `git cherry-pick 02a3fca`
+* [Shopping Cart](http://redux.js.org/docs/introduction/Examples.html#shopping-cart): `git cherry-pick e7c7f03`
+* [Tree View](http://redux.js.org/docs/introduction/Examples.html#tree-view): `git cherry-pick 4c67178`
+* [Async](http://redux.js.org/docs/introduction/Examples.html#async): `git cherry-pick 9e0ac41`
+* [Universal](http://redux.js.org/docs/introduction/Examples.html#universal): `git cherry-pick 29dec4b`
+* [Real World](http://redux.js.org/docs/introduction/Examples.html#real-world): `git cherry-pick a8a1c76`
+
+---
+
 # <a href='http://redux.js.org'><img src='https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67' height='60'></a>
 
 Redux is a predictable state container for JavaScript apps.  
